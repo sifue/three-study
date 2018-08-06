@@ -32,7 +32,7 @@ document.getElementById('green-bg').onclick = function() {
 
 const scene = new THREE.Scene(); // シーンを作成
 const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-camera.position.z = 5;
+camera.position.z = 6;
 
 const controls = new THREE.OrbitControls(camera);
 
